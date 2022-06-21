@@ -11,15 +11,12 @@
 // Realice un programa que solicite por consola 3 palabras cualesquiera
 // Luego el programa debe imprimir la cantidad de caracteres de cada palabra
 // ingresada utilizando .length 
-let pal1 = '';
-let pal2 = '';
-let pal3 = '';
+let pal1 = prompt("Ingrese palabra 1");
+let pal2 = prompt("Ingrese palabra 2");
+let pal3 = prompt("Ingrese palabra 3");
 let res1 = 0;
 let res2 = 0;
 let res3 = 0;
-pal1 = prompt("Ingrese palabra 1");
-pal2 = prompt("Ingrese palabra 2");
-pal3 = prompt("Ingrese palabra 3");
 
 res1 = pal1.length;
 res2 = pal2.length;

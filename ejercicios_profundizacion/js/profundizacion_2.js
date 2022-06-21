@@ -12,15 +12,12 @@
 // o impar.
 // Para cada caso imprimir el resultado en pantalla.
 
-let num1 = 0;
-let num2 = 0;
-let num3 = 0;
+let num1 = parseInt(prompt("Entrada de numero 1"));
+let num2 = parseInt(prompt("Entrada de numero 2"));
+let num3 = parseInt(prompt("Entrada de numero 3"));
 let n1 = 0;
 let n2 = 0;
 let n3 = 0;
-num1 = parseInt(prompt("Entrada de numero 1"));
-num2 = parseInt(prompt("Entrada de numero 2"));
-num3 = parseInt(prompt("Entrada de numero 3"));
 n1 = (num1 % 2)
 console.log(n1)
 if (n1 == 0){
